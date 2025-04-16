@@ -24,11 +24,8 @@ Kavya Kathiravan, Hailey Hubbard, Jessica Anthonisamy, Rohan Singh, Colton Mazur
 ## 🛠️ Tech Stack  
 **Frontend:**  
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)  
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular)  *(Choose one)*  
 
 **Backend:**  
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot)  
-*(OR)* 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js)  
 
 **Database:**  
@@ -50,7 +47,7 @@ Kavya Kathiravan, Hailey Hubbard, Jessica Anthonisamy, Rohan Singh, Colton Mazur
 - **`Hotel`**: `hotelID`, hname, location, pricePerNight 
 - **`Payment`**: `paymentID`, _bookingID_, totalAmount  
 
-*(1:1 for `Payment`→`Booking`, 1:many for `Customer`→`Booking`, 0:1 for `Booking`→`Flight`/`Hotel`)*  
+*(1:1 for `Payment`→`Booking`, 1:many for `Customer`→`Booking`)*  
 
 ---
 
